@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+
+
+x = ['Thur', 'Fri', 'Sat', 'Sun', 'Thur', 'Fri', 'Sat', 'Sun']
+
+y = [170, 120, 250, 190, 180, 130, 260, 200]
+
+size = [2, 3, 4, 2, 3, 2, 4, 3] 
+
+bill = [170, 120, 250, 190, 180, 130, 260, 200] 
+
+
+plt.scatter(x, y, c=size, s=bill, marker='D', alpha=0.5)
+
+
+plt.title("Customizing Scatter Plot")
+
+plt.xlabel("Day")
+
+plt.ylabel("Total Bill")
+
+plt.show()
