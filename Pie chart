@@ -1,0 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+cars=['audi','bajaj','RR','bmw']
+speed=[160,180,200,220]
+plt.pie(speed,labels=cars,autopct='%1.1f%%')
+plt.show()
