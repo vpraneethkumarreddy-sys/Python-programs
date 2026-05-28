@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+x=[20,24,30,40]
+y=[35,38,40,45]
+plt.plot(x,y)
+plt.title('Line chart')
+plt.ylabel('y-axis')
+plt.xlabel('x-axis')
+plt.show()
