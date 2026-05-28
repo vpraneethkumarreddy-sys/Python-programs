@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+
+from matplotlib.figure import Figure
+
+
+x = [10, 20, 30, 40]
+
+y = [20, 25, 35, 55]
+
+
+fig = plt.figure(figsize=(10, 4)) 
+
+ax1 = fig.add_axes([0.1, 0.1, 0.35, 0.8]) 
+
+ax2 = fig.add_axes([0.55, 0.1, 0.35, 0.8])
+
+
+ax1.plot(x, y)
+
+ax2.plot(y, x)
+
+plt.show()
