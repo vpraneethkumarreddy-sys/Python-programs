@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+x = [10, 20, 30, 40]
+y = [20, 25, 35, 55]
+fig = plt.figure(figsize=(5, 4))
+ax = fig.add_axes([0.1, 0.1, 0.8, 0.8]) 
+ax.plot(x, y)
+ax.plot(y, x)
+ax.set_title("Linear Graph")
+ax.set_xlabel("X-Axis")
+ax.set_ylabel("Y-Axis")
+ax.legend(labels=('line 1', 'line 2'))
+plt.show()
