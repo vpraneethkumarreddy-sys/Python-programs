@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+x=[12,12,13,14,15,16,17,17,18,19,20,20,21,21,22]
+
+plt.hist(x, bins=10, color='red')
+
+plt.title('Histogram')
+plt.ylabel('total bill')
+plt.xlabel('x-axis')
+
+plt.show()
