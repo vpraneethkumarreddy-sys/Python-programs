@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+
+cars = ['Audi', 'BMW', 'Tata', 'RR']
+speed = [200, 220, 180, 250]
+
+colors = ['red', 'blue', 'green', 'gold']
+explode = [0, 0.1, 0, 0]   # explode BMW slice
+
+plt.pie(
+    speed,
+    labels=cars,
+    colors=colors,
+    explode=explode,
+    autopct='%1.1f%%',
+    shadow=True,
+    startangle=90
+)
+
+plt.title('Customized Pie Chart')
+
+plt.show()
