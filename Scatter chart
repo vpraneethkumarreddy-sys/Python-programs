@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+x=['Thur','fri','sat','sun']
+y=[12,26,25,28]
+plt.scatter(x,y)
+plt.title('scatter chart')
+plt.ylabel('y-axis')
+plt.xlabel('x-axis')
+plt.show()
