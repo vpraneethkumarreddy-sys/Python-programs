@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+x=['Thur','fri','sat','sun']
+y=[20,30,40,50]
+plt.bar(x,y)
+plt.title('Bar chart')
+plt.ylabel('total bill')
+plt.xlabel('days')
+plt.show()
