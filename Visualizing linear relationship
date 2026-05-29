@@ -1,0 +1,5 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+tips = sns.load_dataset('tips')
+sns.regplot(x='total_bill', y='tip', data=tips, scatter_kws={'s':10}, line_kws={'color':'red'})
+plt.show()
