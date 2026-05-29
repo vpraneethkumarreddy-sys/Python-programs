@@ -1,0 +1,6 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+tips = sns.load_dataset("tips")
+plot=sns.FacetGrid(tips, col="time", row="sex")
+plot.map(sns.scatterplot, "total_bill", "tip")
+plt.show()
