@@ -1,0 +1,7 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+data = {'Name': ['ANSH', 'SAHIL', 'JAYAN', 'ANURAG'], 'Age': [21, 23, 20, 45]} 
+df = pd.DataFrame(data)
+sns.boxplot(y='Age', data=df)
+plt.show()
