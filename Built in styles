@@ -1,0 +1,7 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set_style("whitegrid")
+sns.boxplot(x='species', y='petal_length', data=sns.load_dataset('iris'))
+plt.title('Petal Length Distribution by Species')
+plt.show()
+
